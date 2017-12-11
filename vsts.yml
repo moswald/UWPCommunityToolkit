@@ -15,6 +15,6 @@ steps:
 - task: artifactcrewinternal.build-tasks-dev.artifactDropTask-1.artifactDropTask@0
   inputs:
     dropServiceURI: "https://buildcanary.artifacts.visualstudio.com/DefaultCollection"
-    sourcePath: "$(Build.SourcesDirectory)\bin\nupkg"
+    sourcePath: "$(Build.SourcesDirectory)\\bin\\nupkg"
     detailedLog: "true"
     retentionDays: "10"
